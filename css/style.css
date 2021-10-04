@@ -1,0 +1,293 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-color:#EFEFEF
+}
+
+.clear{
+    clear:both;
+}
+
+
+.header{
+    background-color:#3b5998;
+    height:85px;
+    width:100%;
+    
+}
+
+.container{
+    width:72%;
+    margin:0 auto;
+}
+
+.container .label{
+    width:50%;
+    float:left;
+    color:#fff
+}
+
+.container .login{
+    width: 47%;
+    float:left;
+    color:#fff
+}
+
+.container .link {
+    text-decoration:none;
+    color:#fff;
+    margin-top:7px;
+    font-size:13px
+}
+
+.container .label h1{
+    font-size:44px;
+    
+    padding-left:5px;
+}
+
+.container .login .email{
+    float:left;
+    width:40%;
+    padding-top:10px;
+    margin-left:30px
+}
+
+input[type='text'],input[type='password']{
+    margin-top:5px;
+}
+
+.container .login .pass{
+    float:left;
+    padding-top:10px;
+}
+
+input[type='submit']{
+    margin-top:33px;
+    margin-left:5px;
+    margin-bottom:15px;
+    background-color:darkblue;
+    color:#fff;
+    border:none;
+    padding:3px 7px;
+    font-weight:bold
+}
+
+input[type='submit']:hover{
+    background-color:#4a4ad2;
+}
+
+.content{
+    float:left;
+    width:50%;
+    color:#063865;
+}
+
+.content h3{
+    line-height:1.5;
+    font-size:20px;
+}
+
+
+.signup{
+    width:50%;
+    float:right;
+    padding-left:71px;
+    box-sizing:border-box
+}
+
+.signup h1,.signup h3{
+    color:#444;
+    margin:5px
+}
+
+.signup input:nth-child(3){
+    width:70%;
+    margin-right:4px;
+    height:35px
+}
+
+.signup input:nth-child(4){
+    width:70%;
+    height:35px
+}
+
+.signup input:nth-child(5),.signup input:nth-child(6){
+    margin-top:8px;
+    height:35px
+}
+
+.signup input{
+    border-radius:5px;
+    border:1px solid#999;
+    padding-left:2px;
+    margin-bottom:5px;
+    font-size:18px
+}
+
+::-webkit-input-placeholder{
+    color:#aaa
+}
+
+.signup a{
+    text-decoration:none
+}
+
+select{
+    height:30px;
+    margin-right:2px;
+    border:1px solid#999;
+    margin-bottom:10px
+}
+
+button{
+    width:150px;
+    height:40px;
+    background-color:#080;
+    color:#fff;
+    margin-top:8px;
+    border-radius:8px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#34ad13
+}
+
+hr{
+    margin-top:20px;
+    margin-bottom:20px
+}
+
+.signup .create{
+    font-size:20px;
+
+}
+
+span{
+    color:#777;
+    
+}
+
+.hr{
+    width:1000px;
+    margin-top:6px      
+}
+
+.footer{
+    
+    width:1345px;
+    height:150px;
+    background-color:#fff;
+    float:left;
+    margin-top:20px;
+    direction: ltr
+}
+
+.footerchild{
+    margin-top:15px; 
+    text-align: center;
+    color:#00f;
+    word-spacing:10px
+    
+}
+
+.botton-footer{
+    width:60%;
+    margin-top:15px; 
+    text-align: right;
+    color:#00f;
+    word-spacing:10px;
+    margin-left:250px
+}
+
+.copy{
+    text-align: right;
+    color:#444;
+    margin-right:280px
+}
+
+
+h6{
+    color: rgba(0, 195, 255, 0.897);
+    position: absolute;
+    margin-top:33.5%;
+    margin-left:55%;
+
+}
+
+/* End FaceBook */
+
+/* Start All User */
+
+#dd{
+    font-size: larger;
+    font-weight:bold;
+    color:#f00;
+    width:72%;
+    margin:0 auto;
+    border: 1px solidrgba(0, 0, 0, 0.322);
+    padding:10px;
+    -webkit-box-shadow: 10px 10px 10px 10px #ccc;
+    -moz-box-shadow: 10px 10px 10px 10px #EEE;
+    box-shadow:10px 10px 10px 10px #0000ff;
+}
+
+#bb{
+    background-image: url("../images/back.JPG");
+}
+
+.search{
+    margin:0 auto;
+    width:50%;
+    text-align: center;
+    border: 1px;
+}
+
+table, th{
+    border: 1px solid#f00;
+    color: turquoise;
+    padding:5px
+}
+
+#res{
+    color:#000;
+    text-align:center
+}
+/* End All User */
+
+/* Start Edit */
+.bo{
+    background-image: url("../images/back.JPG");
+}
+
+.edit{
+    width:20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    -webkit-box-shadow: 3px 3px 3px 3px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+#inp{
+    width:250px;
+    height: 30px;
+    font-size: 20px;
+    color:#00f;
+}
+
+.tr{
+    font-size: 25px;
+    font-weight:bold;
+    text-align:left;
+    
+}
+
+
+
+
+
+
